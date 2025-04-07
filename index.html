@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstarp link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <title>Chaldal.com</title>
+  </head>
+  <body>
+    <header class="">
+      <!-- nav start -->
+      <nav class="navbar bg-warning">
+        <div class="container-fluid">
+          <!-- ofcanva start -->
+          <div>
+            <button
+              class="btn"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample"
+            >
+              <img
+                width="23px"
+                height="23px"
+                src="/images/menus.png"
+                alt=""
+                srcset=""
+              />
+            </button>
+
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                  Offcanvas
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="row gap-3">
+                  <!-- 1st -->
+                  <div
+                    class="col border border-danger align-middle align-items-center"
+                  >
+                    <img
+                      class="bg-warning p-2 rounded-circle"
+                      src="/images/favicon.ico"
+                      alt=""
+                    />
+                    <p>Grocery</p>
+                  </div>
+                  <!-- 2nd -->
+                  <div class="col border border-danger align-middle">
+                    <img
+                      class="bg-warning p-2 rounded-circle"
+                      src="/images/favicon.ico"
+                      alt=""
+                    />
+                    <p>Grocery</p>
+                  </div>
+                  <!-- 3rd -->
+                  <div class="col border border-danger align-middle">
+                    <img
+                      class="bg-warning p-2 rounded-circle"
+                      src="/images/favicon.ico"
+                      alt=""
+                    />
+                    <p>Grocery</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ofcanva end -->
+            <a class="navbar-brand" href="#">
+              <img
+                src="images/logo-small.png"
+                alt=""
+                class="d-inline-block align-text-top"
+              />
+            </a>
+          </div>
+
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+      <!-- nav end -->
+    </header>
+    <main>
+      <!-- hero section -->
+      <section style="background-image: url(images/landingBanner.png)">
+        <!-- h -->
+        <div class="d-flex flex-row mb-3">
+          <div class="p-2">
+            <h1 class="pt-4 m-5">Grocery Delivered at your Doorstep</h1>
+            <form class="d-flex pt-4 m-5" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Egg ,veg,milk....."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+          <div class="p-2">
+            <img
+              width="470px"
+              height=""
+              src="images/imageBanner.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
